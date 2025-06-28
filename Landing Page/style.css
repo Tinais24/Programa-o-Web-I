@@ -1,8 +1,12 @@
 .navbar {
-    background-color: #4e4e4e;
+    background-color: #272727;
     color: white;
 }
 
 .hero {
-    background: linear-gradient(to left, #0275e0, #121f58);
+    background: linear-gradient(to bottom, #016ca1, #2d3b47);
+}
+
+.serviços {
+    background-color: #232931;
 }
