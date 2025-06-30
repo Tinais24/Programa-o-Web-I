@@ -9,4 +9,48 @@
 
 .serviços {
     background-color: #232931;
+    color: #010f8b;
+}
+
+.border {
+    border: 2px solid #010f8b;
+    color:#141416
+}
+
+.footer {
+    background-color: #000000;
+    color: white;
+    background-color: #01083f;
+    color: rgb(39, 39, 39);
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.blog {
+    background-color: #313030;
+    color: #010f8b;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.blog h1 {
+    color: #e4e5e9;
+    background-color: #010f8b;
+}
+
+.blog h2 {
+    color: #010f8b;
+}
+
+.faq {
+    background-color: #2a2a2b;
+    color: #16161a;
+}
+
+.faq h2 {
+    color: #141416;
 }
