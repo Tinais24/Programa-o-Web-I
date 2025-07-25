@@ -1,0 +1,27 @@
+<script>
+    console.log(saudacao("Urtzi"));
+
+    function saudacao(nome) {
+        return `olá ${nome}`;
+    }
+
+    console.log(saudacao("Urtzi"));
+    console.log(saudacao("Unai Gurkewicz"));
+
+    //Função anônima
+
+    const saudacao2 = function (nome) {
+        return `Olá, ${nome}`;
+    };
+
+    console.log(saudacao2("Simon"));
+
+    //Arrow Functions - Função de Seta --->
+    const saudacao3 = (nome) => {
+        return `Oi, ${nome}`;
+    };
+    console.log(saudacao3("Douglas"));
+
+    const saudacao4 = (nome) => `E ai ${nome}`;
+    console.log(saudacao4("Thiago"));
+</script>

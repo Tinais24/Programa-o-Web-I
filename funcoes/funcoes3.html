@@ -1,0 +1,34 @@
+<script>
+    //Escopo - Define onde suas variáveis podem ser acessadas
+
+    //Escopo global
+    let nome = "João do Escopo"
+
+    function mostrarNome() {
+        console.log(nome)
+    }
+
+    mostrarNome();
+
+    //Escopo local
+    function exemplo() {
+        let valor = 42
+        console.log(valor)
+    }
+
+    exemplo()
+
+    //console.log(valor)
+
+    // O que this - ele representa o contexto atual de execução
+
+    const pessoa = {
+        nome: "Uriel",
+        falar: function(){
+            console.log(`Meu nome é $(this.nome)`)
+        }
+    }
+
+    pessoa.falar();
+
+</script>
