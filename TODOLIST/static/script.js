@@ -1,7 +1,7 @@
 let tarefas = [];
 let filtroAtual = 'todas';
 
-// Carregando do localStorage ao iniciar o live server
+// Carregamento do local Storage ao iniciar o programa
 
 document.addEventListener("DOMContentLoaded", () => {
 
