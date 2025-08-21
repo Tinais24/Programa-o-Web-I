@@ -1,26 +1,46 @@
-    .concluida {
-      text-decoration: line-through;
-      color: gray;
-    }
-    .filtros .btn.active {
-      font-weight: bold;
-    }
-    input.editando {
-      border: none;
-      outline: none;
-      width: 100%;
-      background: transparent;
-    }
-    .fade-in {
-      animation: fadeIn 0.4s ease;
-    }
-    .fade-out {
-      animation: fadeOut 0.3s ease forwards;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes fadeOut {
-      to { opacity: 0; height: 0; margin: 0; padding: 0; }
-    }
+/* Texto de status concluída */
+.concluida {
+  text-decoration: line-through;
+  color: #fff; /* texto branco para contraste */
+}
+
+/* Filtros */
+.filtros .btn.active {
+  font-weight: bold;
+}
+
+/* Campo de edição inline */
+input.editando {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+}
+
+/* Animações de entrada e saída */
+.fade-in {
+  animation: fadeIn 0.4s ease;
+}
+.fade-out {
+  animation: fadeOut 0.3s ease forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeOut {
+  to { opacity: 0; height: 0; margin: 0; padding: 0; }
+}
+
+/* Fundo verde para as tarefas ativas */
+.tarefa-ativa {
+  background-color: rgba(46, 204, 113, 0.85);
+  color: #fff;
+}
+
+/* Fundo vermelho para as tarefas concluídas */
+.tarefa-concluida {
+  background-color: rgba(231, 76, 60, 0.85);
+  color: #fff;
+}
+    
